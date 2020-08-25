@@ -7,7 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class CakefactoryApplication {
 
 	public static void main(String[] args) {
+
 		SpringApplication.run(CakefactoryApplication.class, args);
+		System.out.println("Getting ready to open up the cake factory...");
 	}
 
 }
