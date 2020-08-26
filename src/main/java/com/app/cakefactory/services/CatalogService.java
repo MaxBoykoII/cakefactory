@@ -12,7 +12,7 @@ public class CatalogService {
                     new CakeItem("1-1", "Chocolate Cake", 10.00)
     );
 
-    List<CakeItem> getCakeItems() {
+    public List<CakeItem> getCakeItems() {
         return cakeItems;
     }
 }
